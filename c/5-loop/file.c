@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include<stdbool.h> 
 
-// loop, nested loop, for, while, do while
+// loop, nested loop, for, while, do while, break, continue
 int main(){
     
     //loop
-    for (int i = 97; i <=100; i++)
-    {
-        printf("%c\n", i);
-    } 
+    // for (int i = 97; i <=100; i++)
+    // {
+    //     printf("%c\n", i);
+    // } 
 
 
  
@@ -32,6 +32,34 @@ int main(){
     //     }         
     //     printf("\n");
     // } 
+
+    
+
+    
+    
+    
+    //break
+    // for (int i = 97; i <=100; i++)
+    // {
+    //         if(i == 99) {
+    //             break;
+    //         }
+    //         printf("%c\n", i);
+    // } 
+    
+    
+    
+
+
+
+    //continue
+    for (int i = 97; i <=100; i++)
+    {
+            if(i == 99) {
+                continue;
+            }
+            printf("%c\n", i);
+    } 
  
 
     return 0;
