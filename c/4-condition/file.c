@@ -19,6 +19,8 @@ int main(){
     // else printf("Equal");
 
 
+
+    
     //switch case
     int day = 8; 
  
