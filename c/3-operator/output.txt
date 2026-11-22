@@ -1,0 +1,4 @@
+Sum is: 210
+Mul is: 2000
+Bool is: 1
+Logical result: 1
