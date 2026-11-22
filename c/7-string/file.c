@@ -6,11 +6,12 @@
 int main(){ 
 
     // char str[10] = "TanvirFahi";
-    char str[25];
+    // char str[25];
+    char str[] = "BD is so \"nice\" count\\ry";
 
     // scanf("%[^\n]s", &str);
-    fgets(str, sizeof(str), stdin);
-
+    // fgets(str, sizeof(str), stdin);
+    
     // printf("My name %s\n", str);
     fputs(str, stdout);
 
