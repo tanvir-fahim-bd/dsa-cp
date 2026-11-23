@@ -1,1 +1,2 @@
 Sum is 30
+Ceil is 11.000000
